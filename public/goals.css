@@ -1,0 +1,81 @@
+body {
+    background-image: url("bckgnd.jpg");
+    height: 800px;
+    margin: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo {
+    position: relative;
+}
+
+.topright {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.studybutton  {
+    background-color: black;
+    border: white;
+    color: white;
+    padding: 14px 40px;
+    width: 45%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 8px;
+    border: 2px solid lightslategray;
+    position:absolute;
+    bottom: 160px;
+
+}
+
+.practicebutton  {
+    background-color: black;
+    border: white;
+    color: white;
+    padding: 14px 40px;
+    width: 45%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 8px;
+    border: 2px solid lightslategray;
+    position:relative;
+    bottom: 80px;
+}
+
+.practicebutton:hover {
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.studybutton:hover {
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.greeting {
+    text-align: center;
+    font-size: xx-large;
+    font-family: "Comic Sans MS";
+    font-weight: bold;
+    height: 300px;
+    line-height: 300px;
+}
