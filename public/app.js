@@ -29,9 +29,9 @@ function ytubeStudy() {
 }
 
 function createCards() {
-    window.location.href = "/QnA/flashcards/index.html";
+    window.location.href = "/QnA/public/flashcards/index.html";
 }
 
 function viewCards() {
-    window.location.href = '/QnA/flashcards/index.html';
+    window.location.href = '/QnA/public/flashcards/index.html';
 }
